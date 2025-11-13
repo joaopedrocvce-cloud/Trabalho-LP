@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autenticação para Gerenciador de Tarefas</title>
+    <title>Autenticação para Gerenciador de Tarefasss</title>
     <link rel="stylesheet" href="estilo.css">
     <!--favicon-->
      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -13,6 +13,10 @@
 <body>
     <header>        
         <h1>Listas de Tarefas</h1>
+         <div class="user-menu">
+        <img src="" class="user-icon" title="Minha conta">
+        <button class="logout-btn" title="Sair">🚪 Logout</button>
+    </div>
     </header>
 
     <form id="formTarefas">
@@ -40,6 +44,7 @@
 
     <button onclick="ordernarPrioridades()">📚 Ordernar por Prioridade</button>
     <button onclick="removerTodas()">🗑️ Remover Todas</button>
+    
 
     <div id="concluidas"></div>
 
